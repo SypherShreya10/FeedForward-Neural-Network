@@ -1,0 +1,17 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.a
+ 
+# Trained model files
+*.bin
+ 
+# VS Code settings
+.vscode/
+ 
+# Temp files
+tempCodeRunnerFile.cpp
+ 
+# macOS
+.DS_Store
