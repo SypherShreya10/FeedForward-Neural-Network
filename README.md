@@ -12,7 +12,7 @@ A neural network built entirely from scratch in C++, with no ML frameworks. The 
 - [How to Compile and Run](#how-to-compile-and-run)
 - [File-by-File Guide](#file-by-file-guide)
   - [Phase 1 — Scalar Network (root folder)](#phase-1--scalar-network-root-folder)
-  - [Phase 2 — Matrix Network (milestone_2/)](#phase-2--matrix-network-milestone_2)
+  - [Phase 2 — Matrix Network (phase2_matrix/)](#phase-2--matrix-network-phase2_matrix)
 - [How the Complete Project Works](#how-the-complete-project-works)
 - [The Iris Dataset](#the-iris-dataset)
 - [Sample Results](#sample-results)
@@ -224,7 +224,7 @@ Entry point for the Phase 1 network. Creates a 2→4→1 Sigmoid network, trains
 
 ---
 
-### Phase 2 — Matrix Network (`milestone_2/`)
+### Phase 2 — Matrix Network (`phase2_matrix/`)
 
 #### `activation.h` (Phase 2 version)
 Same design as Phase 1 but fully compatible with the matrix-based pipeline. The same `Sigmoid` and `ReLU` classes are used here. The key difference is that `layer_matrix.h` calls `activation->apply(x)` and `activation->derivative(x)` element-wise inside matrix loops.
